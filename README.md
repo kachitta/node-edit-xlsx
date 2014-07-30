@@ -3,6 +3,13 @@
 Edit an existing xlsx file. Things to be able to do are simple. Read and write cell values. That's all. Available data types are boolean, number and string, not formula.
 
 
+## Install
+
+```shell
+npm install node-xlsx --save-dev
+```
+
+
 ## Usage
 
 ```js
@@ -53,4 +60,3 @@ Licensed under the MIT license.
 ## Special thanks to
 
 * [Keiko Kitagawa](http://official.stardust.co.jp/keiko/)
-
