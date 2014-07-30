@@ -6,7 +6,7 @@ Edit an existing xlsx file. Things to be able to do are simple. Read and write c
 ## Install
 
 ```shell
-npm install node-xlsx --save-dev
+npm install edit-xlsx --save-dev
 ```
 
 
