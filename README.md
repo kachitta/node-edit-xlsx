@@ -6,7 +6,7 @@ Edit an existing xlsx file. Things to be able to do are simple. Read and write c
 ## Install
 
 ```shell
-npm install edit-xlsx --save-dev
+npm install kachitta/node-edit-xlsx
 ```
 
 
@@ -42,13 +42,6 @@ xlsx = new EditXlsx('output.xlsx');
 sheet = xlsx.sheet(0);
 console.log(sheet.value('B2')); //=> 'Katsuhiro Otomo'
 console.log(sheet.value([1, 2], 'C2')); //=> ['AKIRA', 1988]
-```
-
-
-## Test
-
-```shell
-npm test
 ```
 
 
